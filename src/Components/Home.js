@@ -13,7 +13,7 @@ class AppState {
     }, 1000);
   }
 
-  @action
+  @action.bound
   reset() {
     this.timer = 0;
   }
